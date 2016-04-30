@@ -1,0 +1,41 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Sixteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-sixteen-child
+*/
+
+.site {
+    margin: 0;
+}
+
+.site-inner {
+    max-width: 100%;
+}
+
+.site-header {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-header-main {
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-header-main > .site-branding {
+    margin: 0 0 0 0;
+}
+
+.site-header-main > .site-header-menu {
+    align-self: flex-start;
+    margin: 1em 0 0 0;
+    padding: 0 1em 0 1em;
+}
