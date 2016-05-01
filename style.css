@@ -69,15 +69,29 @@
     float: left;
 }
 
-/*
+
 .content-area {
     width: 100%;
 }
 
-.site-main > article:not(.post-single) {
-    width: 33%;
-    background-color: red;
-    display: inline-block;
+.site-main {
+    text-align: justify;
+    text-justify: distribute-all-lines;
 }
 
-*/
+.site-main:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+
+.site-main > article:not(.post-single) {
+    width: 32%;
+    height: 0;
+    padding-bottom: 32%;
+    vertical-align: top;
+    display: inline-block;
+    border: 0.225em solid #DADADA;
+}
