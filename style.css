@@ -39,3 +39,45 @@
     margin: 1em 0 0 0;
     padding: 0 1em 0 1em;
 }
+
+
+.main-navigation li {
+    position: static;
+}
+
+.main-navigation .menu-item-has-children > a {
+    padding: 0.65625em 0.875em;
+}
+
+.main-navigation .menu-item-has-children > a:after {
+    display: none;
+}
+
+.main-navigation li:hover > ul,
+.main-navigation li.focus > ul {
+    left: 0;
+    right: auto;
+}
+
+.main-navigation ul ul:before,
+.main-navigation ul ul:after {
+    display: none;
+}
+
+.main-navigation li > ul li,
+.main-navigation li > ul li{
+    float: left;
+}
+
+/*
+.content-area {
+    width: 100%;
+}
+
+.site-main > article:not(.post-single) {
+    width: 33%;
+    background-color: red;
+    display: inline-block;
+}
+
+*/
