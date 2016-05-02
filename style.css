@@ -88,10 +88,19 @@
 }
 
 .site-main > article:not(.post-single) {
+
+    overflow: hidden;
     width: 32%;
     height: 0;
     padding-bottom: 32%;
     vertical-align: top;
     display: inline-block;
-    border: 0.225em solid #DADADA;
+    border: 1px solid #DADADA;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-content {
+    float: inherit;
+    width: 100%;
 }
