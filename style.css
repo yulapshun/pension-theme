@@ -101,6 +101,7 @@ a:active {
 
 .site-main > article:not(.post-single) {
     background-size: cover;
+    background-position: center top;
     overflow: hidden;
     width: 32%;
     height: 0;
@@ -113,13 +114,6 @@ a:active {
 }
 
 .site-main > article:not(.post-single) header {
-    margin-left: 0;
-    margin-right: 0;
-}
-
-body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
-    float: inherit;
-    width: 100%;
     margin-left: 0;
     margin-right: 0;
 }
@@ -140,7 +134,16 @@ body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
     padding-right: 0.5em;
 }
 
-.site-main > article:not(.post-single) .entry-content {
+body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
+    float: inherit;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-content {
+    float: inherit;
+    width: 100%;
     font-size: 1em;
     line-height: 1.6em;
     height: 4.8em;
