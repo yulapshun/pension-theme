@@ -134,16 +134,18 @@ a:active {
     padding-right: 0.5em;
 }
 
-body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
-    float: inherit;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+body:not(.search-results) article:not(.type-page) .entry-content {
+    float: left;
+    width: 71.42857144%;
 }
 
-body:not(.search-results) article:not(.type-page) .entry-content {
-    float: inherit;
-    width: 100%;
+body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
+
+}
+
+body article.post-grid .entry-content {
+    float: inherit !important;
+    width: 100% !important;
     font-size: 1em;
     line-height: 1.6em;
     height: 4.8em;
@@ -151,4 +153,11 @@ body:not(.search-results) article:not(.type-page) .entry-content {
     padding-left: 1em;
     padding-right: 1em;
     padding-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
+    margin-left: 0;
+    margin-right: 0;
 }
