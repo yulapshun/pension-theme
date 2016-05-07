@@ -112,9 +112,16 @@ a:active {
     padding-right: 1em;
 }
 
-body:not(.search-results) article:not(.type-page) .entry-content {
+.site-main > article:not(.post-single) header {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
     float: inherit;
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .site-main > article:not(.post-single) .article-mask {
