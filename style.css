@@ -24,6 +24,24 @@ a:active {
 
 }
 
+.site-header {
+    padding-top: 0;
+    margin-top: 32px;
+}
+
+.site-header-main > .site-branding {
+    width: 100%;
+}
+
+.site-header-main > .site-branding > .header-image {
+    margin-top: 0;
+}
+
+.site-header-main > .site-branding > .header-image img{
+    width: 100%;
+    height: auto;
+}
+
 .site {
     margin: 0;
 }
