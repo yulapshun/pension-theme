@@ -9,7 +9,7 @@ function theme_enqueue_styles() {
 function unregister_widgets() {
 
     // Unregister some of the TwentyTen sidebars
-    unregister_sidebar( 'sidebar-1' );
+    //unregister_sidebar( 'sidebar-1' );
     unregister_sidebar( 'sidebar-2' );
     unregister_sidebar( 'sidebar-3' );
 }
