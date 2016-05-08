@@ -132,7 +132,7 @@ a:active {
     line-height: 0;
 }
 
-.site-main > article:not(.post-single) {
+.site-main > article:not(.post-single):not(.page) {
     background-size: cover;
     background-position: center top;
     overflow: hidden;
